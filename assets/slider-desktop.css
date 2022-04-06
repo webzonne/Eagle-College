@@ -41,7 +41,7 @@
     position: absolute;
     padding: 0px 15px;
     top: 50%;
-    z-index: 99;
+    z-index: 50;
     cursor: pointer;
     width: 10px;
 }
