@@ -1,0 +1,145 @@
+.seccion-4-desk{
+    display: none;
+}
+
+/*SECCION MOVILE */
+
+.seccion-4-mobile{
+    margin-bottom: -4px;
+}
+
+.seccion-4-mobile .content-img-mobile{
+    position: relative;
+    max-width:375px;
+    margin: auto;
+}
+
+.seccion-4-mobile .content-img-mobile img{
+    width: 100%;
+}
+
+.seccion-4-mobile .parrafo-banner-movil{
+    position: absolute;
+    background: black;
+    width:263px;
+    margin: auto;
+    color: white;
+    padding: 20px;
+    left: 0;
+    right: 0;
+    bottom: 36%;
+    z-index: 9;
+    text-align: center;
+    
+}
+
+.seccion-4-mobile .parrafo-banner-movil p:nth-child(1){
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.seccion-4-mobile .parrafo-banner-movil p:nth-child(2){
+    font-size: 18px;
+}
+
+.seccion-4-mobile .content-btn-mobile{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    bottom: 17%;
+    text-align: center;
+
+}
+
+.seccion-4-mobile .content-btn-mobile button{
+    background: #F37A1F;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px 45px;
+}
+
+/* SECCION 4 DESK */
+
+@media(min-width:550px){
+    .seccion-4-mobile{
+        display: none;
+    }
+    
+    .seccion-4-desk{
+        display: block;
+        margin-bottom: -4px;
+    }
+    
+}
+
+.seccion-4-desk .content-img-desk{
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+}
+
+.seccion-4-desk .content-img-desk img{
+    width: 100%;
+}
+
+.seccion-4-desk .parrafo-banner-desk{
+   position: absolute;
+   background: rgba(0, 0, 0, 0.4);
+   margin: auto;
+   color: white;
+   padding: 20px;
+   left: 15px;
+   bottom: 11%;
+   z-index: 9;   
+}
+
+.seccion-4-desk .parrafo-banner-desk p:nth-child(1){
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.seccion-4-desk .parrafo-banner-desk p:nth-child(2){
+    font-size: 20px;
+}
+
+.seccion-4-desk .content-btn-desk{
+    position: absolute;
+    right: 21px;
+    bottom: 32%;
+    z-index: 9; 
+}
+
+.seccion-4-desk .content-btn-desk button{
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding:10px 15px;
+    background: #F37A1F;
+}
+
+@media (min-width:766px){
+    .seccion-4-desk .parrafo-banner-desk{
+      left: 45px;
+      bottom: 19%;  
+    }
+    .seccion-4-desk .content-btn-desk button{
+       padding:15px 78px;
+       font-size: 24px;
+    }
+}
+
+@media (min-width:1111px){
+   .seccion-4-desk .parrafo-banner-desk p:nth-child(1){
+    font-size: 70px;
+    }
+    .seccion-4-desk .content-btn-desk button{
+    font-size: 24px;
+    padding: 31px 110px;  
+    }
+    .seccion-4-desk .parrafo-banner-desk p:nth-child(2){
+    font-size: 40px;
+    }
+}
+

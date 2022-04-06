@@ -1,0 +1,262 @@
+/* SECCION 3 MOBILE */
+
+.seccion3-desk{
+    display: none;
+}
+
+.seccion3-mobile{
+    background: linear-gradient(131.13deg, #497494 30.25%, rgba(176, 201, 219, 0) 136.04%);
+    padding: 10px;
+}
+
+.content-seccion3{
+    background: white;
+    padding: 10px;
+    max-width: 368px;
+    margin: auto;
+}
+
+.content-seccion3 .letras{
+    margin: 0 20px;
+    margin-top: 10px;
+}
+
+.content-seccion3 h3{
+    margin-bottom: 20px;
+    color: #F37A1F;
+}
+
+.content-seccion3 p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.content-redmore{
+    display: flex;
+}
+
+.content-redmore p{
+    font-weight: bold;
+    color: #F37A1F;   
+}
+
+.content-redmore img{
+    margin-top: -6px;
+}
+
+.content-seccion3 .content-video-mobile{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-seccion3 .content-video-mobile img{
+    width: 100%;
+}
+
+.content-seccion3 .content-img{
+    position: relative;
+    max-width: 318px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.content-seccion3 .content-img img{
+    width: 100%;
+}
+
+.content-seccion3 .content-img p{
+    position: absolute;
+    color: white;
+}
+
+.content-seccion3 .content-img p:nth-child(1){
+    font-size: 120px;
+    right: 20px;
+}
+
+.content-seccion3 .content-img p:nth-child(2){
+    font-size: 75px;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* SECCION 3 MOBILE TERMINA */
+
+@media (min-width:526px){
+    
+    .seccion3-mobile{
+        display: none;
+    }
+    
+    .seccion3-desk{
+        display: block;
+    }
+
+/* SECCION 3 DESK COMIENZA */
+
+.seccion3-desk{
+    background: linear-gradient(131.13deg, #497494 30.25%, rgba(176, 201, 219, 0) 136.04%);
+    padding: 10px;
+}
+
+.content-seccion3-desk{
+    background: white;
+    padding: 10px;
+    margin: auto;
+    max-width: 1327px;
+    
+}
+
+.letra-desk h1{
+    color: #F37A1F;
+    margin-top: 43px;
+    margin-bottom:36px;
+}
+
+.letra-desk p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 21px;
+}
+
+.redmore-desk{
+    display: flex;
+}
+
+.redmore-desk p{
+    font-weight: bold;
+    color:#F37A1F;
+    margin-right: 20px;
+}
+
+.redmore-desk img{
+    margin-top: -1px;
+}
+
+
+.seccion3-desk .content-img-desk{
+   max-width: 1327px;
+   margin-bottom: -4px;    
+}
+
+.seccion3-desk .content-img-desk img{
+    width: 100%;
+}
+
+.content-laminas-fechas{
+    display: flex;
+    
+}
+.content-laminas-fechas .laminas img{
+    width: 100%;
+}
+
+.content-laminas-fechas .laminas p{
+    position: absolute;
+    color: white;
+    z-index: 9;
+}
+
+.content-laminas-fechas .laminas p:nth-child(1){
+    font-size: 50px;   
+}
+
+.content-laminas-fechas .laminas p:nth-child(2){
+    font-size: 25px;  
+}
+
+.content-laminas-fechas .lamina-1{
+    position: relative;
+}
+
+.content-laminas-fechas .lamina-2{
+    position: relative;
+}
+
+.content-laminas-fechas .lamina-3{
+    position: relative;
+}
+
+.content-laminas-fechas .lamina-1 p:nth-child(1){
+    right: 13px;
+    top: 35px;    
+}
+
+.content-laminas-fechas .lamina-2 p:nth-child(1){
+    right: 0;
+    top: 35px;
+}
+
+.content-laminas-fechas .lamina-3 p:nth-child(1){
+    right:0px;
+    top: 35px;   
+}
+
+.content-laminas-fechas .lamina-1 p:nth-child(2){
+    right: 13px;
+    top: 96px;    
+}
+
+.content-laminas-fechas .lamina-2 p:nth-child(2){
+    right: 0;
+    top: 96px;
+}
+
+.content-laminas-fechas .lamina-3 p:nth-child(2){
+    right:0px;
+    top: 96px;   
+}
+
+
+.content-laminas-fechas .lamina1,
+.content-laminas-fechas .lamina2,
+.content-laminas-fechas .lamina3{
+    width: 33,33%;
+}
+
+
+}
+
+
+@media(min-width:850px){
+  .content-laminas-fechas .laminas p:nth-child(1){
+    font-size: 120px;   
+}
+
+.content-laminas-fechas .laminas p:nth-child(2){
+    font-size: 75px;  
+}
+    
+.content-laminas-fechas .lamina-1 p:nth-child(1){
+    right: 13px;
+    top: 35px;    
+}
+
+.content-laminas-fechas .lamina-2 p:nth-child(1){
+    right: 0;
+    top: 35px;
+}
+
+.content-laminas-fechas .lamina-3 p:nth-child(1){
+    right:0px;
+    top: 35px;   
+}
+
+.content-laminas-fechas .lamina-1 p:nth-child(2){
+    right: 13px;
+    top: 161px;    
+}
+
+.content-laminas-fechas .lamina-2 p:nth-child(2){
+    right: 0;
+    top: 161px;
+}
+
+.content-laminas-fechas .lamina-3 p:nth-child(2){
+    right:0px;
+    top: 161px;   
+}
+}
+
+
+/* SECCION 3 DESK TERMINA */
